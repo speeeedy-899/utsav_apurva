@@ -1,2 +1,2 @@
-# utsav_apurva
-My personal resume website.
+# Utsav Apurva
+My personal portfolio website.
