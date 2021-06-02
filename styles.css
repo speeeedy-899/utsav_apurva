@@ -37,7 +37,6 @@ body{
 h1{
   position: relative;
   animation: animate 5s linear infinite;
-  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
   padding: 50px;
   color: #0e3752;
@@ -239,6 +238,7 @@ hr
   h1
   {
       font-size: 4rem !important;
+        margin: 30% auto 0 auto !important;
   }
   p{
     font-size: 1rem;
@@ -260,6 +260,7 @@ hr
   h1
   {
     font-size: 6rem !important;
+    margin: 20% auto 0 auto !important;
   }
   p{
     font-size: 1.5rem;
@@ -279,6 +280,7 @@ hr
   h1
   {
       font-size: 8rem !important;
+      margin: 10% auto 0 auto !important;
   }
   p{
     font-size: 2rem;
