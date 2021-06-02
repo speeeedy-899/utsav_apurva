@@ -12,6 +12,44 @@ body{
 
 }
 
+.heading{
+  position: absolute;
+  top: 50%;
+}
+@media (max-width: 575px) {
+  .heading{
+    padding-left: 17%;
+  }
+}
+@media (max-width: 933px) and (min-width: 575px) {
+  .heading{
+    padding-left: 15%;
+  }
+}
+
+@media (max-width: 1244px) and (min-width: 934px) {
+  .heading{
+      left: 47%;
+      -o-transform: translateX(-47%) translateY(-50%);
+      -ms-transform: translateX(-47%) translateY(-50%);
+      -moz-transform: translateX(-47%) translateY(-50%);
+      -webkit-transform: translateX(-47%) translateY(-50%);
+      transform: translateX(-47%) translateY(-50%);
+  }
+}
+
+@media (min-width: 1244px) {
+  .heading{
+      left: 50%;
+      -o-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+  }
+}
+
+
 .top-containter{
   background-color: #1b262c;
   background-image: url("https://transparenttextures.com/patterns/always-grey.png");
@@ -35,6 +73,7 @@ body{
 
 /* ------------------------------------------------------Heading Animation------------------------------------------------- */
 h1{
+  display: inline;
   position: relative;
   animation: animate 5s linear infinite;
   font-family: 'Sacramento', cursive;
@@ -99,7 +138,7 @@ overflow: hidden;
 .dynamic-txt li{
   list-style: none;
   font-size: 2.5rem;
-  animation: slide 6s steps(3) infinite;
+  animation: slide 7.5s steps(3) infinite;
   position: relative;
   top: 0;
 }
@@ -123,13 +162,13 @@ overflow: hidden;
   height: 100%;
   width: 100%;
   border-left: 2px solid #bbe1fa;
-  animation: typing 2s steps(10) infinite;
+  animation: typing 2.5s steps(12) infinite;
 }
 
 @keyframes typing {
   100%{
     left: 100%;
-    margin: 0 -5rem 0 5rem;
+    margin: 0 -2rem 0 2rem;
   }
 }
 /* ---------------------------------------------------------H2 Animation--------------------------------------------------- */
@@ -211,7 +250,14 @@ p{
   color: #40514E;
   width: 50%;
   margin: 0 auto;
+  margin-bottom: 0 !important;
 }
+
+.skills p{
+  padding-top: 15%;
+}
+
+
 
 hr
 {
@@ -229,6 +275,7 @@ hr
 
 .contact-message{
   width: 10%;
+  height: 10%;
 }
 
 
@@ -238,7 +285,6 @@ hr
   h1
   {
       font-size: 4rem !important;
-        margin: 30% auto 0 auto !important;
   }
   p{
     font-size: 1rem;
@@ -252,6 +298,9 @@ hr
     width: 30%;
     padding: 1%;
   }
+  .contact-me p{
+    padding-bottom: 7%;
+  }
 }
 
 
@@ -260,7 +309,6 @@ hr
   h1
   {
     font-size: 6rem !important;
-    margin: 20% auto 0 auto !important;
   }
   p{
     font-size: 1.5rem;
@@ -274,13 +322,15 @@ hr
     width: 25%;
     padding: 2%;
   }
+  .contact-me p{
+    padding-bottom: 5%;
+  }
 }
 
 @media (min-width: 990px) {
   h1
   {
-      font-size: 8rem !important;
-      margin: 10% auto 0 auto !important;
+    font-size: 8rem !important;
   }
   p{
     font-size: 2rem;
@@ -294,9 +344,10 @@ hr
     width: 25%;
     padding: 1%;
   }
+  .contact-me p{
+    padding-bottom: 3%;
+  }
 }
-
-
 
 
 /* --------------------------------------------------------------Responsive CSS------------------------------------------------------------------ */
