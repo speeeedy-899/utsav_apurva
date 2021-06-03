@@ -249,7 +249,6 @@ overflow: hidden;
 
 ::-webkit-scrollbar-thumb
 {
-  border-radius: 10px;
 	background-color: #1B262C;
 }
 
