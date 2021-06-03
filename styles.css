@@ -254,7 +254,7 @@ overflow: hidden;
 
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  Custom Scrollbar ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 h2{
-  font-size: 2rem !important;
+  font-size: 2.5rem !important;
 }
 
 a{
@@ -270,7 +270,6 @@ a:hover{
 
 p{
   color: #40514E;
-  width: 50%;
   margin: 0 auto;
   margin-bottom: 0 !important;
 }
@@ -301,15 +300,16 @@ p{
       font-size: 4rem !important;
   }
   p{
-    font-size: 1.25rem;
+    font-size: 1.7rem;
+      width: 75%;
   }
   .profile-picture{
     margin: 2% 0;
-    width: 25%;
-    height: 25%;
+    width: 30%;
+    height: 30%;
   }
   .skill{
-    width: 35%;
+    width: 40%;
     padding: 1%;
   }
   .contact-me p{
@@ -325,7 +325,8 @@ p{
     font-size: 6rem !important;
   }
   p{
-    font-size: 1.5rem;
+    font-size: 2.2rem;
+      width: 70%;
   }
   .profile-picture{
     margin: 5% 0;
@@ -333,7 +334,7 @@ p{
     height: 20%;
   }
   .skill{
-    width: 25%;
+    width: 35%;
     padding: 2%;
   }
 
@@ -348,7 +349,8 @@ p{
     font-size: 8rem !important;
   }
   p{
-    font-size: 1.5rem;
+    font-size: 2.2rem;
+      width: 50%;
   }
   .profile-picture{
     margin: 5% 0;
@@ -356,7 +358,7 @@ p{
     height: 15%;
   }
   .skill{
-    width: 25%;
+    width: 30%;
     padding: 1%;
   }
   .contact-me p{
